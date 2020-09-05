@@ -129,7 +129,7 @@ request.onload = function () {
 
         card.addEventListener('click', event => {
             const movieClicked = movie.title;
-            location.href = "movie.html";
+            location.href = "pages/" + movie.title + ".html";
             
         })
         

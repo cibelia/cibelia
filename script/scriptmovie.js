@@ -2,7 +2,7 @@ const app = document.getElementById('root');
 
 const logo = document.createElement('img');
 logo.setAttribute('class', 'logo');
-logo.src = "logo.png";
+logo.src = "C:/Users/camogas/Desktop/Git/cibelia.github.io/logo.png";
 
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
@@ -80,7 +80,7 @@ request.onload = function () {
         imageBox.appendChild(img);
 
         if (data.title == "Arrietty") {
-          img.src = "photos/Arrietty.jpg";
+          img.src = "C:/Users/camogas/Desktop/Git/cibelia.github.io/photos/Arrietty.jpg";
         }
 
         const box = document.createElement('div');
@@ -93,7 +93,7 @@ request.onload = function () {
 
         const description = document.createElement('p');
         description.setAttribute('class', 'description');
-        description.textContent = '"' + data.description + '"';
+        description.textContent = data.description;
 
         container.appendChild(imageBox);
         container.appendChild(box);
